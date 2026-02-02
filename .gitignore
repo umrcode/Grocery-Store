@@ -37,3 +37,6 @@ dist/
 
 # Mac
 *.DS_Store
+
+# Screenshots / App snapshots (ignored to keep repo lightweight)
+App-Snapshots/

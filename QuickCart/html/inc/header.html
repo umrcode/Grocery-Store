@@ -1,0 +1,19 @@
+<header class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">QuickCart</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navCollapse" aria-controls="navCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navCollapse">
+      <form class="d-flex ms-auto me-3" role="search" onsubmit="event.preventDefault(); const q=this.querySelector('input').value; if(q) window.location='products.html?q='+encodeURIComponent(q); else window.location='products.html';">
+        <input class="form-control me-2" type="search" placeholder="Search products..." aria-label="Search" name="q">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+        <li class="nav-item"><a class="nav-link" href="cart.html">Cart <span class="badge bg-primary cart-count">0</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+      </ul>
+    </div>
+  </div>
+</header>

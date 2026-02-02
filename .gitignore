@@ -1,0 +1,39 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Environment
+.env
+
+# Logs
+*.log
+
+# PHP specific
+vendor/
+composer.lock
+
+# Local test files
+/html/phpinfo.php
+/html/db_test.php
+
+# Assets that are generated or local test data
+/html/assets/data/*.json
+
+# Node
+node_modules/
+
+# Build artifacts
+dist/
+
+# Sensitive files
+*.pem
+
+# Nested repo
+/Grocery-Store/.git
+
+# Mac
+*.DS_Store

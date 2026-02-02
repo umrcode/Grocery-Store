@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>QuickCart — Products</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <div data-include="inc/header.html"></div>
+
+  <main class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+      <h1 class="mb-0">Products</h1>
+      <a href="cart.html" class="btn btn-outline-primary">Cart <span class="badge bg-primary cart-count">0</span></a>
+    </div>
+    <div class="row" id="products-grid" aria-live="polite">
+      <!-- products loaded by JS -->
+    </div>
+  </main>
+
+  <div data-include="inc/footer.html"></div>
+
+  <script src="assets/js/bootstrap-loader.js"></script>
+  <script src="assets/js/site.js"></script>
+</body>
+</html>

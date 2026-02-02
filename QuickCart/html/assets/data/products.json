@@ -1,0 +1,5 @@
+[
+  {"id":"p1","title":"Wireless Headphones","short":"Comfortable, long battery life","description":"High quality wireless headphones with noise cancellation and 30-hour battery life.","price":2499.00,"image":"assets/img/headphones.jpg"},
+  {"id":"p2","title":"Smartphone X100","short":"Fast processor, great camera","description":"Latest-gen smartphone with 8GB RAM and 128GB storage, powerful camera system.","price":15999.00,"image":"assets/img/phone.jpg"},
+  {"id":"p3","title":"Smartwatch Pro","short":"Track your fitness","description":"Water-resistant smartwatch with heart rate monitoring and activity tracking.","price":4999.00,"image":"assets/img/watch.jpg"}
+]
